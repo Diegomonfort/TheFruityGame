@@ -1,0 +1,181 @@
+.leadboardContainer{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+
+.backBtn{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #777777;
+    cursor: pointer;
+}
+
+
+
+.leadboardContainer h1{
+    color: #202020;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.selectDificultyLeadboardContainer{
+    width: auto;
+    max-width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #202020;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.selectDificultyLeadboardContainer span{
+    font-size: 13px;
+    color: #fafaf5;
+    padding: 5px;
+    width: 80px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.selectDificultyLeadboardContainer span:hover{
+    background-color: #3D3D3D;
+    cursor: pointer;
+}
+
+.selectDificultyLeadboardContainer .selectedCat{
+    background-color: #3D3D3D;
+}
+
+
+.leadboardGeneral{
+    width: 900px;
+    max-width: 80%;
+    background-color: #202020;
+    flex: 1;
+    max-height: 70dvh;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.labelsLeadboard{
+    width: calc(100% - 60px);
+    height: 40px;
+    position: absolute;
+    top: 35px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #777777;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+
+.labelsLeadboard .labelL{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fafaf5;
+}
+
+
+.scrollContainerLeadboard{
+    width: 100%;
+    overflow-y: auto;
+    max-height: calc(100% - 0px);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.itemPositionSocre{
+    width: 100%;
+    padding: 0 10px;
+    height: 40px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.itemPositionSocre .labelL{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.userPointsAtached{
+    width: calc(100% - 60px);
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #fafaf5;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.userPointsAtached .labelL{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #202020;
+}
+
+
+.gold {
+    background-color: #E6D47A;
+    color: black;
+}
+
+.silver {
+    background-color: #E6E6E6;
+    color: black;
+}
+
+.bronze {
+    background-color: #E6AC7A;
+    color: black;
+}
+
+.regular {
+    background-color: #3D3D3D;
+    color: #fafaf5;
+}

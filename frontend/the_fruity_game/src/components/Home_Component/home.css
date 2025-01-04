@@ -1,0 +1,137 @@
+/* HOME 1 (NO SESION) */
+
+.home1{
+    width: 100%;
+    height: 100dvh;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.home1 img {
+    width: 30vw;
+    max-width: 200px;
+}
+
+
+.optionsHomeSelection{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+.optionsHomeSelection .ButtonHome{
+    width: 150px;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform ease 0.3s;
+    transform: scale(1);
+    font-family: 'Montserrat';
+}
+
+.optionsHomeSelection .ButtonHome:hover{
+    transform: scale(1.05);
+}
+
+ .filled{
+    background-color: #FAFAF5;
+    border: 1px solid #FAFAF5;
+    
+} 
+
+ .outline{
+    background-color: #202020;
+    border: 1px solid #FAFAF5;
+    color: #FAFAF5;
+} 
+
+
+@media (max-width: 650px){
+
+    .optionsHomeSelection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+
+    }
+    
+
+}
+
+
+/* HOME 1 (NO SESION) */
+
+
+
+
+
+
+
+/* HOME 2 (WITH SESSION) */
+
+
+.home2{
+    width: 100%;
+    height: 100dvh;
+    background-color: #FAFAF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.home2 img {
+    width: 30vw;
+    max-width: 200px;
+}
+
+
+.optionsHomeSelection .filled2{
+    background-color: #202020;
+    border: 1px solid #202020;
+    color: #FAFAF5;
+} 
+
+.optionsHomeSelection .outline2{
+    background-color: #FAFAF5;
+    border: 1px solid #202020;
+    color: #202020;
+} 
+
+
+.logOutBtn{
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    color: #a7a7a7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.sessionsBtn{
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    color: #5e5e5e;
+}
+
+
+
+
+/* HOME 2 (WITH SESSION) */
+

@@ -1,0 +1,146 @@
+.sessionsContainer {
+    width: 100%;
+    height: 100dvh;
+    background-color: #202020;
+    padding: 30px 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+  
+  .sessionsContainer h1 {
+    margin: 0;
+    text-align: center;
+    color: #fafaf5;
+    font-size: 25px;
+  }
+  
+  .sessionsDisplay {
+    width: 1120px;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .sessionItem {
+    width: 100%;
+    background-color: #3d3d3d;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: height 0.3s ease, padding 0.3s ease;
+  }
+  
+  .sessionItem.expanded {
+    height: auto;
+    padding: 10px 15px;
+  }
+  
+  .infoSession {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 50px;
+  }
+  
+  .scoreSession {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .deleteSession {
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .deleteSession:hover {
+    color: rgb(204, 55, 55);
+  }
+  
+  .expandedContent {
+    margin-top: 10px;
+    color: #fafaf5;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+
+  .questionSessionDiv{
+    width: 100%;
+    height: 50px;
+    background-color: #fafaf536;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 10px;
+  }
+
+
+  .questionSession{
+    width: 40%;
+    color: #fafaf5;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .answerQuestion{
+    width: 60%;
+    color: #fafaf5;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+  }
+
+  .answerQuestion span{
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  .correctFruit{
+    background-color: #fafaf5;
+    color: #202020;
+  }
+
+  .answerIcon{
+    font-size: 17px;
+    margin-left: 10px;
+  }
+
+
+
+
+
+
+  @media (max-width: 600px) {
+
+
+    .sessionsContainer h1 {
+        margin-top: 60px;
+      }
+      
+
+
+
+  .questionSession{
+    font-size: 10px;
+  }
+
+
+
+  .answerQuestion{
+    font-size: 10px;
+  }
+
+  }

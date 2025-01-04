@@ -1,0 +1,75 @@
+.authContainer{
+    width: 100%;
+    height: 100dvh;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.authContainer form{
+    width: 400px;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+
+.inputsAuth{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputsAuth input{
+    border: 2px solid #fafaf5;
+    color: #fafaf5;
+    font-weight: 500;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 8px;
+    font-family: "Montserrat";
+}
+
+.authContainer button{
+    padding: 10px 15px;
+    background-color: #fafaf5;
+    color: #202020;
+    font-weight: 600;
+    border: none;
+    font-family: "Montserrat";
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.spanAuth{
+    font-size: 12px;
+    color: #fafaf5;
+    text-align: right;
+}
+
+.spanAuth b{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.errorMessage{
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 10px 15px;
+    background-color: #E84343;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
