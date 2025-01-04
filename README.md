@@ -31,3 +31,37 @@ After activating Virtual Enviorment, install the requiered libraries.
 ```bash
 pip install -r requirements.txt
 ```
+
+
+
+
+## Frontend Installation
+
+Follow these steps to install and set up the frontend.
+
+## 1. Install Node.js and npm
+Make sure that **Node.js** and **npm** are installed. If they are not, you can download and install them from [nodejs.org](https://nodejs.org/).
+
+To verify installation, run the following commands:
+```bash
+node --version
+npm --version
+```
+
+## 2. Navigate to the Frontend Directory
+```bash
+cd frontend/the-fruity-game
+```
+
+## 3. Install Dependencies
+```bash
+npm install
+```
+
+## 4. Run the Frontend
+To start the development server, run:
+```bash
+npm run dev
+```
+
+
