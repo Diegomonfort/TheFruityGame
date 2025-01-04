@@ -28,15 +28,6 @@ To activate on windows use
 ## 4. Install dependencies
 After activating Virtual Enviorment, install the requiered libraries.
 
-#### 1. Fast Api & Uvicorn
 ```bash
-pip install fastapi uvicorn
-```
-#### 2. Flask
-```bash
-pip install flask
-```
-#### 3. PostgreSQL library
-```bash
-pip install psycopg2-binary
+pip install -r requirements.txt
 ```
