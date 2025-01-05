@@ -32,6 +32,11 @@ After activating Virtual Enviorment, install the requiered libraries.
 pip install -r requirements.txt
 ```
 
+## 5. Start server
+
+```bash
+py app.py 
+```
 
 
 
