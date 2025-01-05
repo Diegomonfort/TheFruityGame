@@ -1,5 +1,5 @@
 from flask import Flask
-
+from flask_cors import CORS
 # Importing Blueprints
 from routes.users import users_bp
 from routes.auth import auth_bp
@@ -10,7 +10,7 @@ from routes.questionsMade import fruit_comparisons_bp
 from routes.leadboard import leadboard_bp
 
 app = Flask(__name__)
-
+CORS(app) #Added this for some problems with cors on testing
 
 # Registrar blueprints
 app.register_blueprint(users_bp, url_prefix='/api')
