@@ -179,3 +179,25 @@
     background-color: #3D3D3D;
     color: #fafaf5;
 }
+
+
+
+@media (max-width:500px){
+    .labelsLeadboard .labelL{
+        font-size: 11px;
+    }
+    
+    
+    
+    
+    .itemPositionSocre{
+        padding: 0 8px;
+    }
+    
+    
+    .itemPositionSocre .labelL{
+        font-size: 11px;
+    }
+
+    
+}

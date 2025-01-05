@@ -343,6 +343,9 @@
         transition: transform ease 0.3s;
     }
 
+    .overlay {
+        border-radius: 30px;
+    }
 
     .questionContainer{
         width: 1120px;
