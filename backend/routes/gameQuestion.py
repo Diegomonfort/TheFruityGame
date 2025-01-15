@@ -2,7 +2,6 @@ from flask import Flask, jsonify, request, Blueprint
 import random
 from db import get_db_connection
 
-app = Flask(__name__)
 game_question_bp = Blueprint('question', __name__)
 
 
@@ -144,5 +143,3 @@ def get_game_question():
         cursor.close()
         conn.close()
 
-if __name__ == '__main__':
-    app.run(debug=True)
